@@ -23,7 +23,7 @@
 #elif GTMAPPAUTH_USER_IMPORTS
 #import "AppAuthCore.h"
 #else
-#import <AppAuth/AppAuthCore.h>
+#import <AppAuthCore/AppAuthCore.h>
 #endif
 
 #define GTMOAuth2AssertValidSelector GTMSessionFetcherAssertValidSelector

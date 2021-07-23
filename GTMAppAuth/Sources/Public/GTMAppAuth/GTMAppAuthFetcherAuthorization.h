@@ -20,8 +20,8 @@
   #error "__has_include not available."
 #elif __has_include(<GTMSessionFetcher/GTMSessionFetcher.h>)
   #import <GTMSessionFetcher/GTMSessionFetcher.h>
-#elif __has_include("../GTMSessionFetcher.h")
-  #import "../GTMSessionFetcher.h"
+#elif __has_include("GTMSessionFetcher.h")
+  #import "GTMSessionFetcher.h"
 #else
 # error "Failed to find GTMSessionFetcher"
 #endif

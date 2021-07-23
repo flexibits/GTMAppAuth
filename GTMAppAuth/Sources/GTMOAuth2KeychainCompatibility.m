@@ -28,8 +28,8 @@
 #import "AppAuthCore.h"
 #import "GTMSessionFetcher.h"
 #else
-#import <AppAuth/AppAuthCore.h>
-#import <GTMSessionFetcher/GTMSessionFetcher.h>
+#import <AppAuthCore/AppAuthCore.h>
+#import "GTMSessionFetcher.h"
 #endif
 
 // standard OAuth keys
